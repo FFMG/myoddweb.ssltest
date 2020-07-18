@@ -15,7 +15,7 @@ The SslTester class is where the test is done
 
 Then you can test for whatever protocol you want to double check.
 
-```
+```csharp
   [Flags]
   public enum SslProtocols
   {
