@@ -1,5 +1,9 @@
 # myoddweb.ssltest
-Simple c# App to test supported ssl version 
+Simple c# App to test supported ssl/tls version 
+
+For example if you want to check the supported versions of google
+
+`myoddweb.ssltest.exe --host google.com --port 443`
 
 ![myoddweb.ssltest Sample](/media/sample.png?raw=true "Ssl Test Google.com")
 
@@ -9,7 +13,7 @@ The SslTester class is where the test is done
 
 `SslTester(Uri uri)` the constructor, pass the uri being tested.
 
-Then you can test for whatever protocol you want to double chec.
+Then you can test for whatever protocol you want to double check.
 
 ```
   [Flags]
