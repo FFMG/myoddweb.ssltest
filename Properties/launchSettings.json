@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "myoddweb.ssltest": {
+      "commandName": "Project",
+      "commandLineArgs": "--host raptorgs1 --port 1990"
+    }
+  }
+}
